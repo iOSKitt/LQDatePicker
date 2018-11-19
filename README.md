@@ -5,10 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/LQDatePicker.svg?style=flat)](https://cocoapods.org/pods/LQDatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/LQDatePicker.svg?style=flat)](https://cocoapods.org/pods/LQDatePicker)
 
-[![Image text](https://github.com/iOSKitt/LQDatePicker/blob/master/showimage.png)]
+
 
 ## Example
-
+![Image text](https://github.com/iOSKitt/LQDatePicker/blob/master/showimage.png)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
