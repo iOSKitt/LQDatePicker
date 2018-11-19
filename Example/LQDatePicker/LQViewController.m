@@ -7,8 +7,12 @@
 //
 
 #import "LQViewController.h"
+#import <LQDatePicker/LQDatePicker.h>
 
-@interface LQViewController ()
+@interface LQViewController ()<LQDatePickerDelegate>
+
+@property (nonatomic, strong) LQDatePicker *pickerView;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -17,13 +21,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    _pickerView = [LQDatePicker showInView:self.view];
+    _pickerView.delegate = self;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)getTime:(UIButton *)sender {
+    [_pickerView showView];
+}
+
+- (void)datePicker:(LQDatePicker *)picker selectedDate:(NSString *)date {
+    _label.text = date;
 }
 
 @end

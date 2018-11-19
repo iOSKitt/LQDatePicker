@@ -1,0 +1,6 @@
+framework module LQDatePicker {
+  umbrella header "LQDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

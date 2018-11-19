@@ -7,6 +7,7 @@
 
 ## Example
 
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -19,10 +20,39 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'LQDatePicker'
 ```
+```ruby
+//init methods
++ (LQDatePicker *)showInView:(UIView *)view;
 
-## Author
++ (LQDatePicker *)showInView:(UIView *)view selectedCallBack:(ChooseCallBack)callBack;
+```
 
-sniper, 37358540@qq.com
+```ruby
+@interface LQViewController ()<LQDatePickerDelegate>
+
+@property (nonatomic, strong) LQDatePicker *pickerView;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+@end
+
+@implementation LQViewController
+
+- (void)viewDidLoad
+{
+[super viewDidLoad];
+_pickerView = [LQDatePicker showInView:self.view];
+_pickerView.delegate = self;
+}
+
+- (IBAction)getTime:(UIButton *)sender {
+[_pickerView showView];
+}
+
+- (void)datePicker:(LQDatePicker *)picker selectedDate:(NSString *)date {
+_label.text = date;
+}
+```
+
 
 ## License
 

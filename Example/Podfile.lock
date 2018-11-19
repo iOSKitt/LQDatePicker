@@ -1,0 +1,16 @@
+PODS:
+  - LQDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - LQDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  LQDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LQDatePicker: 40e839232bfbfa2d49de11085020d14314b31d2b
+
+PODFILE CHECKSUM: a2a4c475a6151c5de2651701ace1c3a123558f48
+
+COCOAPODS: 1.5.3

@@ -39,15 +39,17 @@
 /* Begin PBXFileReference section */
 		0474CE914AED543090CCE99E /* Pods-LQDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDatePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LQDatePicker_Tests/Pods-LQDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3CDACB7582542AFE3CAB3B3D /* Pods-LQDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDatePicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LQDatePicker_Example/Pods-LQDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3DD28C8E21A2A7E90057F95E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3DD28C8F21A2A7E90057F95E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3DD28C9021A2A7EA0057F95E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		461AE93F532CC59B187C712E /* Pods-LQDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LQDatePicker_Tests/Pods-LQDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EBD46CADD4684716EB0C0AA /* Pods_LQDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		544DCFCE585368FA5C89F21C /* LQDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LQDatePicker.podspec; path = ../LQDatePicker.podspec; sourceTree = "<group>"; };
+		544DCFCE585368FA5C89F21C /* LQDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LQDatePicker.podspec; path = ../LQDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LQDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* LQDatePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LQDatePicker-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* LQDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LQDatePicker-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQAppDelegate.h; sourceTree = "<group>"; };
@@ -58,14 +60,13 @@
 		6003F5AE195388D20070C39A /* LQDatePicker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQDatePicker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87F90EB83A97784277D52ADA /* Pods_LQDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B36146ABF6BE3CA2AE76D179 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C796D6DFA242E861F77CE788 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B36146ABF6BE3CA2AE76D179 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C796D6DFA242E861F77CE788 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF52884EA313FBF312A82684 /* Pods-LQDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LQDatePicker_Example/Pods-LQDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,7 +208,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				BAE93B1D4BC0C2BB012B4A1A /* [CP] Embed Pods Frameworks */,
+				2250B2C54B0CABD6E470E159 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,8 +258,8 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -316,6 +317,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2250B2C54B0CABD6E470E159 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LQDatePicker_Example/Pods-LQDatePicker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LQDatePicker/LQDatePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LQDatePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQDatePicker_Example/Pods-LQDatePicker_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3A5CC2D267AC437FF259B0E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,28 +359,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BAE93B1D4BC0C2BB012B4A1A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LQDatePicker_Example/Pods-LQDatePicker_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LQDatePicker/LQDatePicker.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LQDatePicker.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQDatePicker_Example/Pods-LQDatePicker_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -395,7 +396,7 @@
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
+				3DD28C8F21A2A7E90057F95E /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -403,7 +404,7 @@
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5B9195388D20070C39A /* en */,
+				3DD28C9021A2A7EA0057F95E /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -412,6 +413,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
+				3DD28C8E21A2A7E90057F95E /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -423,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -463,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;

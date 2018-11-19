@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sniper/LQDatePicker'
+  s.homepage         = 'https://github.com/iOSKitt/LQDatePicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sniper' => '37358540@qq.com' }
-  s.source           = { :git => 'https://github.com/sniper/LQDatePicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iOSKitt/LQDatePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
