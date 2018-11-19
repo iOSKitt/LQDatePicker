@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LQDatePicker_Example' do
+  pod 'LQDatePicker', :path => '../'
+
+  target 'LQDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
